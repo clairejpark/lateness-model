@@ -1,0 +1,43 @@
+{
+  "mae_minutes": {
+    "Maps only (assume on time)": 6.43,
+    "Personal average": 3.6,
+    "Our model (p50)": 2.14,
+    "Best possible (knows every habit)": 1.8
+  },
+  "calibration_pct_below": {
+    "p10": 23.3,
+    "p25": 33.9,
+    "p50": 49.9,
+    "p75": 69.9,
+    "p80": 78.1,
+    "p90": 90.2
+  },
+  "p10_to_p90_coverage_pct": 66.9,
+  "simulated_hangouts": {
+    "Maps only": {
+      "everyone_on_time_pct": 12.4,
+      "person_on_time_pct": 47.9,
+      "avg_min_late_when_late": 12.1,
+      "avg_min_waiting_early": 0.5
+    },
+    "Personal average": {
+      "everyone_on_time_pct": 44.1,
+      "person_on_time_pct": 78.7,
+      "avg_min_late_when_late": 10.5,
+      "avg_min_waiting_early": 2.6
+    },
+    "Flat 8-min buffer": {
+      "everyone_on_time_pct": 48.8,
+      "person_on_time_pct": 81.2,
+      "avg_min_late_when_late": 11.0,
+      "avg_min_waiting_early": 3.4
+    },
+    "Our model": {
+      "everyone_on_time_pct": 57.1,
+      "person_on_time_pct": 85.5,
+      "avg_min_late_when_late": 9.9,
+      "avg_min_waiting_early": 2.8
+    }
+  }
+}
